@@ -5,6 +5,6 @@ validation paper by Mori et al.
 
 
 ## TODO
-- [ ] run [VESPA](https://github.com/timothydmorton/VESPA)
+- [x] run [VESPA](https://github.com/timothydmorton/VESPA)
 - [ ] run [timmy-lite](https://github.com/john-livingston/timmy-lite)
 - [ ] run [triceratops](https://github.com/stevengiacalone/triceratops)

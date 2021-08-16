@@ -11,6 +11,6 @@ for url,band in zip(urls,bands):
     df=pd.read_csv(url, comment='#', skiprows=30, index_col=0, names=['sep','dmag'], delim_whitespace=True)
     fp=f'Gemini_{band}.cc'
     df2 = df[df.dmag>0].drop_duplicates()
-    df2.to_csv(fp, header=False, float_format='%.3f')
+    df2.to_csv(fp, header=False, float_format='%.3f', sep=' ')
     print(df2.head())
     print('Saved: ', fp)
