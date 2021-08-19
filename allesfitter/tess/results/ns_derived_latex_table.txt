@@ -1,0 +1,17 @@
+Parameter & Value & Source \\ 
+\hline 
+\multicolumn{3}{c}{\textit{Derived parameters}} \\ 
+\hline 
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$ & $0.05413\pm0.00091$ & derived \\ 
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$ & $18.47\pm0.32$ & derived \\ 
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$ & $0.00539\pm0.00040$ & derived \\ 
+Inclination b; $i_\mathrm{b}$ (deg) & $88.71_{-0.45}^{+0.64}$ & derived \\ 
+Impact parameter b; $b_\mathrm{tra;b}$ & $0.42_{-0.21}^{+0.14}$ & derived \\ 
+Total transit duration b; $T_\mathrm{tot;b}$ (h) & $1.053_{-0.071}^{+0.061}$ & derived \\ 
+Full-transit duration b; $T_\mathrm{full;b}$ (h) & $0.826_{-0.10}^{+0.086}$ & derived \\ 
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) & $19.07_{-0.94}^{+1.00}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; tess}$ (ppt) & $0.0119_{-0.0016}^{+0.0015}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; tess}$ (ppt) & $0.0119_{-0.0016}^{+0.0015}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; tess}$ & $0.49_{-0.32}^{+0.46}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; tess}$ & $0.09\pm0.37$ & derived \\ 
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $19.07_{-0.94}^{+1.00}$ & derived \\ 

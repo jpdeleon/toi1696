@@ -1,0 +1,14 @@
+#property,value,lower_error,upper_error,source
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$,0.0541338052632042,0.0009116809431015949,0.0009141540275803203,derived
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$,18.472745360098365,0.3067676765708498,0.31643325270840705,derived
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$,0.005392089585830515,0.00040136172902410696,0.00038693792535886545,derived
+Inclination b; $i_\mathrm{b}$ (deg),88.71326742616698,0.44555028727906176,0.6425536608515614,derived
+Impact parameter b; $b_\mathrm{tra;b}$,0.4157741249533804,0.2089713054145908,0.1432389082402965,derived
+Total transit duration b; $T_\mathrm{tot;b}$ (h),1.0526128695969919,0.07071212609114752,0.06133873540962731,derived
+Full-transit duration b; $T_\mathrm{full;b}$ (h),0.8259224186362291,0.10267546631398772,0.08625700303095063,derived
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs),19.069051590351037,0.9350638641053166,0.9971953051362199,derived
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; tess}$ (ppt),0.011899662214104989,0.001638903908923628,0.001535887098480515,derived
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; tess}$ (ppt),0.011899662214104989,0.001638903908923628,0.001535887098480515,derived
+Limb darkening; $u_\mathrm{1; tess}$,0.49432412487847965,0.3208037047419556,0.45870268911260226,derived
+Limb darkening; $u_\mathrm{2; tess}$,0.0883012910999519,0.35688281918789905,0.37167705660225764,derived
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs),19.069051590351037,0.9350638641053166,0.9971953051362199,derived

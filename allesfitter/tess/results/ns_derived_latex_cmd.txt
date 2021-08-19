@@ -1,0 +1,13 @@
+\newcommand{\bRstarovera}{$0.05413\pm0.00091$} %Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$ = $0.05413\pm0.00091$
+\newcommand{\baoverRstar}{$18.47\pm0.32$} %Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$ = $18.47\pm0.32$
+\newcommand{\bRcompanionovera}{$0.00539\pm0.00040$} %Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$ = $0.00539\pm0.00040$
+\newcommand{\bi}{$88.71_{-0.45}^{+0.64}$} %Inclination b; $i_\mathrm{b}$ (deg) = $88.71_{-0.45}^{+0.64}$
+\newcommand{\bbtra}{$0.42_{-0.21}^{+0.14}$} %Impact parameter b; $b_\mathrm{tra;b}$ = $0.42_{-0.21}^{+0.14}$
+\newcommand{\bTtratot}{$1.053_{-0.071}^{+0.061}$} %Total transit duration b; $T_\mathrm{tot;b}$ (h) = $1.053_{-0.071}^{+0.061}$
+\newcommand{\bTtrafull}{$0.826_{-0.10}^{+0.086}$} %Full-transit duration b; $T_\mathrm{full;b}$ (h) = $0.826_{-0.10}^{+0.086}$
+\newcommand{\bhostdensity}{$19.07_{-0.94}^{+1.00}$} %Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) = $19.07_{-0.94}^{+1.00}$
+\newcommand{\bdepthtrundiltess}{$0.0119_{-0.0016}^{+0.0015}$} %Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; tess}$ (ppt) = $0.0119_{-0.0016}^{+0.0015}$
+\newcommand{\bdepthtrdiltess}{$0.0119_{-0.0016}^{+0.0015}$} %Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; tess}$ (ppt) = $0.0119_{-0.0016}^{+0.0015}$
+\newcommand{\hostldcuonetess}{$0.49_{-0.32}^{+0.46}$} %Limb darkening; $u_\mathrm{1; tess}$ = $0.49_{-0.32}^{+0.46}$
+\newcommand{\hostldcutwotess}{$0.09\pm0.37$} %Limb darkening; $u_\mathrm{2; tess}$ = $0.09\pm0.37$
+\newcommand{\combinedhostdensity}{$19.07_{-0.94}^{+1.00}$} %Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) = $19.07_{-0.94}^{+1.00}$

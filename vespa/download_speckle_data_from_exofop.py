@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-from urllib.request import Request, urlopen
 import pandas as pd
 
 url1="https://exofop.ipac.caltech.edu/tess/get_file.php?id=194517"

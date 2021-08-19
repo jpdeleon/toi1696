@@ -1,0 +1,16 @@
+\newcommand{\brr}{$0.0996\pm0.0079$} %$R_b / R_\star=0.0996\pm0.0079$ 
+\newcommand{\brsuma}{$0.05952\pm0.00092$} %$(R_\star + R_b) / a_b=0.05952\pm0.00092$ 
+\newcommand{\bcosi}{$0.0225_{-0.011}^{+0.0077}$} %$\cos{i_b}=0.0225_{-0.011}^{+0.0077}$ 
+\newcommand{\bepoch}{$1829.2009\pm0.0013$} %$T_{0;b}=1829.2009\pm0.0013$ $\mathrm{BJD}$
+\newcommand{\bperiod}{$2.50069\pm0.00032$} %$P_b=2.50069\pm0.00032$ $\mathrm{d}$
+\newcommand{\bfc}{$0.0$} %$\sqrt{e_b} \cos{\omega_b}=0.0$ 
+\newcommand{\bfs}{$0.0$} %$\sqrt{e_b} \sin{\omega_b}=0.0$ 
+\newcommand{\diltess}{$0.0$} %$D_\mathrm{0; tess}=0.0$ 
+\newcommand{\hostldcqonetess}{$0.46_{-0.29}^{+0.32}$} %$q_{1; \mathrm{tess}}=0.46_{-0.29}^{+0.32}$ 
+\newcommand{\hostldcqtwotess}{$0.42_{-0.26}^{+0.32}$} %$q_{2; \mathrm{tess}}=0.42_{-0.26}^{+0.32}$ 
+\newcommand{\bsbratiotess}{$0.0$} %$J_{b; \mathrm{tess}}=0.0$ 
+\newcommand{\hostgeomalbedotess}{$0.0$} %$A_{\mathrm{geom}; host; \mathrm{tess}}=0.0$ 
+\newcommand{\hostgdctess}{$0.0$} %$Grav. dark._{b; \mathrm{tess}}=0.0$ 
+\newcommand{\lnerrfluxtess}{$-3.960\pm0.015$} %$\ln{\sigma_\mathrm{tess}}=-3.960\pm0.015$ $\ln{ \mathrm{rel. flux.} }$
+\newcommand{\baselinegpmaternthreetwolnsigmafluxtess}{$-6.33_{-0.88}^{+1.0}$} %$\mathrm{gp: \ln{\sigma} (tess)}=-6.33_{-0.88}^{+1.0}$ 
+\newcommand{\baselinegpmaternthreetwolnrhofluxtess}{$8.4\pm4.2$} %$\mathrm{gp: \ln{\rho} (tess)}=8.4\pm4.2$ 
