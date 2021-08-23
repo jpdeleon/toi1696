@@ -1,18 +1,18 @@
 #name,median,lower_error,upper_error,label,unit
 #Fitted parameters,,,
-b_rr,0.09961097594160576,0.007851953604818163,0.007683849826779582,$R_b / R_\star$,
-b_rsuma,0.059517638092047506,0.0009073959019642933,0.000922532796768058,$(R_\star + R_b) / a_b$,
-b_cosi,0.02245583229817047,0.011148675922812091,0.0077412732643823146,$\cos{i_b}$,
-b_epoch,1829.2008926603378,0.00134283237616728,0.0012955610097833414,$T_{0;b}$,$\mathrm{BJD}$
-b_period,2.5006942644394825,0.00032156535518534923,0.00032383037309680063,$P_b$,$\mathrm{d}$
+b_rr,0.09807513928053192,0.007851744290953366,0.007592229640211695,$R_b / R_\star$,
+b_rsuma,0.05956192317082737,0.0009204169695002443,0.0009004856071283956,$(R_\star + R_b) / a_b$,
+b_cosi,0.023947201746912387,0.010919866923118292,0.0075438023176890925,$\cos{i_b}$,
+b_epoch,1829.2008511460817,0.0013770196344466967,0.001313266978286265,$T_{0;b}$,$\mathrm{BJD}$
+b_period,2.500699252474779,0.00031612979178197165,0.0003306561074336578,$P_b$,$\mathrm{d}$
 b_f_c,0.0,(fixed),(fixed),$\sqrt{e_b} \cos{\omega_b}$,
 b_f_s,0.0,(fixed),(fixed),$\sqrt{e_b} \sin{\omega_b}$,
 dil_tess,0.0,(fixed),(fixed),$D_\mathrm{0; tess}$,
-host_ldc_q1_tess,0.4556720566095639,0.2855470977844491,0.3236452045508521,$q_{1; \mathrm{tess}}$,
-host_ldc_q2_tess,0.419509771654067,0.2620727638561166,0.3162267982007193,$q_{2; \mathrm{tess}}$,
+host_ldc_q1_tess,0.4512437578444974,0.2878473771425255,0.31827814117390535,$q_{1; \mathrm{tess}}$,
+host_ldc_q2_tess,0.4270172819518526,0.2638600852040189,0.3223632398712841,$q_{2; \mathrm{tess}}$,
 b_sbratio_tess,0.0,(fixed),(fixed),$J_{b; \mathrm{tess}}$,
 host_geom_albedo_tess,0.0,(fixed),(fixed),$A_{\mathrm{geom}; host; \mathrm{tess}}$,
 host_gdc_tess,0.0,(fixed),(fixed),$Grav. dark._{b; \mathrm{tess}}$,
-ln_err_flux_tess,-3.960383958931579,0.014793997742450493,0.014720816783027502,$\ln{\sigma_\mathrm{tess}}$,$\ln{ \mathrm{rel. flux.} }$
-baseline_gp_matern32_lnsigma_flux_tess,-6.327018076255733,0.8841263548160683,1.0053498714253166,$\mathrm{gp: \ln{\sigma} (tess)}$,
-baseline_gp_matern32_lnrho_flux_tess,8.38235503963004,4.223368656081821,4.1248988634224855,$\mathrm{gp: \ln{\rho} (tess)}$,
+ln_err_flux_tess,-3.9446983545417122,0.0052744871914160996,0.005323992301413227,$\ln{\sigma_\mathrm{tess}}$,$\ln{ \mathrm{rel. flux.} }$
+baseline_gp_matern32_lnsigma_flux_tess,-6.389393520285735,0.1446119552003502,0.132791655246689,$\mathrm{gp: \ln{\sigma} (tess)}$,
+baseline_gp_matern32_lnrho_flux_tess,-1.7883295974919946,0.34296618134054135,0.32472527271680574,$\mathrm{gp: \ln{\rho} (tess)}$,
