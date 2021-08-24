@@ -1,0 +1,20 @@
+parameter & value & unit & fit/fixed \\ 
+\hline 
+\multicolumn{4}{c}{\textit{Fitted parameters}} \\ 
+\hline 
+$R_b / R_\star$ & $0.0947\pm0.0080$ & & fit \\ 
+$(R_\star + R_b) / a_b$ & $0.05956\pm0.00093$ & & fit \\ 
+$\cos{i_b}$ & $0.0258_{-0.011}^{+0.0072}$ & & fit \\ 
+$T_{0;b}$ & $1829.2008_{-0.0015}^{+0.0014}$ & $\mathrm{BJD}$& fit \\ 
+$P_b$ & $2.50072\pm0.00032$ & $\mathrm{d}$& fit \\ 
+$\sqrt{e_b} \cos{\omega_b}$ & $0.0$ & & fixed \\ 
+$\sqrt{e_b} \sin{\omega_b}$ & $0.0$ & & fixed \\ 
+$D_\mathrm{0; tess}$ & $0.0$ & & fixed \\ 
+$q_{1; \mathrm{tess}}$ & $0.45_{-0.28}^{+0.32}$ & & fit \\ 
+$q_{2; \mathrm{tess}}$ & $0.44_{-0.27}^{+0.32}$ & & fit \\ 
+$J_{b; \mathrm{tess}}$ & $0.0$ & & fixed \\ 
+$A_{\mathrm{geom}; host; \mathrm{tess}}$ & $0.0$ & & fixed \\ 
+$Grav. dark._{b; \mathrm{tess}}$ & $0.0$ & & fixed \\ 
+$\ln{\sigma_\mathrm{tess}}$ & $-3.9410\pm0.0054$ & $\ln{ \mathrm{rel. flux.} }$& fit \\ 
+$\mathrm{gp: \ln{\sigma} (tess)}$ & $0.1\pm9.3$ & & fit \\ 
+$\mathrm{gp: \ln{\rho} (tess)}$ & $0.2\pm9.2$ & & fit \\ 

@@ -1,0 +1,18 @@
+#name,median,lower_error,upper_error,label,unit
+#Fitted parameters,,,
+b_rr,0.09469684748529067,0.008001669586630705,0.008049135563344578,$R_b / R_\star$,
+b_rsuma,0.059558780247857,0.0009331379564155029,0.0009044555450668165,$(R_\star + R_b) / a_b$,
+b_cosi,0.02581885959654008,0.010580512050960703,0.0071828185703870576,$\cos{i_b}$,
+b_epoch,1829.200803241363,0.0014585904486921208,0.001353299068114211,$T_{0;b}$,$\mathrm{BJD}$
+b_period,2.500715330982442,0.0003245887421785554,0.00032268079641673,$P_b$,$\mathrm{d}$
+b_f_c,0.0,(fixed),(fixed),$\sqrt{e_b} \cos{\omega_b}$,
+b_f_s,0.0,(fixed),(fixed),$\sqrt{e_b} \sin{\omega_b}$,
+dil_tess,0.0,(fixed),(fixed),$D_\mathrm{0; tess}$,
+host_ldc_q1_tess,0.4544012227955495,0.28452685653332793,0.320495089376838,$q_{1; \mathrm{tess}}$,
+host_ldc_q2_tess,0.4398952827459199,0.2726995732834161,0.31621245703874484,$q_{2; \mathrm{tess}}$,
+b_sbratio_tess,0.0,(fixed),(fixed),$J_{b; \mathrm{tess}}$,
+host_geom_albedo_tess,0.0,(fixed),(fixed),$A_{\mathrm{geom}; host; \mathrm{tess}}$,
+host_gdc_tess,0.0,(fixed),(fixed),$Grav. dark._{b; \mathrm{tess}}$,
+ln_err_flux_tess,-3.9409993406206283,0.005354687394199864,0.0052944035487576535,$\ln{\sigma_\mathrm{tess}}$,$\ln{ \mathrm{rel. flux.} }$
+baseline_gp_matern32_lnsigma_flux_tess,0.05365448438350029,9.287047203434035,9.014089339189757,$\mathrm{gp: \ln{\sigma} (tess)}$,
+baseline_gp_matern32_lnrho_flux_tess,0.18668415072656686,9.216403379273975,9.002506149472335,$\mathrm{gp: \ln{\rho} (tess)}$,
