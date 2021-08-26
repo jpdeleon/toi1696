@@ -2,16 +2,16 @@ Parameter & Value & Source \\
 \hline 
 \multicolumn{3}{c}{\textit{Derived parameters}} \\ 
 \hline 
-Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$ & $0.05440\pm0.00093$ & derived \\ 
-Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$ & $18.38\pm0.32$ & derived \\ 
-Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$ & $0.00515\pm0.00041$ & derived \\ 
-Inclination b; $i_\mathrm{b}$ (deg) & $88.52_{-0.41}^{+0.61}$ & derived \\ 
-Impact parameter b; $b_\mathrm{tra;b}$ & $0.47_{-0.20}^{+0.13}$ & derived \\ 
-Total transit duration b; $T_\mathrm{tot;b}$ (h) & $1.026_{-0.076}^{+0.072}$ & derived \\ 
-Full-transit duration b; $T_\mathrm{full;b}$ (h) & $0.80_{-0.11}^{+0.10}$ & derived \\ 
-Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) & $18.79_{-0.93}^{+1.00}$ & derived \\ 
-Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; tess}$ (ppt) & $0.0105\pm0.0015$ & derived \\ 
-Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; tess}$ (ppt) & $0.0105\pm0.0015$ & derived \\ 
-Limb darkening; $u_\mathrm{1; tess}$ & $0.52_{-0.34}^{+0.49}$ & derived \\ 
-Limb darkening; $u_\mathrm{2; tess}$ & $0.06\pm0.37$ & derived \\ 
-Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $18.79_{-0.93}^{+1.00}$ & derived \\ 
+Host radius over semi-major axis b; $R_\star/a_\mathrm{b}$ & $0.05408\pm0.00090$ & derived \\ 
+Semi-major axis b over host radius; $a_\mathrm{b}/R_\star$ & $18.49\pm0.31$ & derived \\ 
+Companion radius b over semi-major axis b; $R_\mathrm{b}/a_\mathrm{b}$ & $0.00543\pm0.00038$ & derived \\ 
+Inclination b; $i_\mathrm{b}$ (deg) & $88.74_{-0.45}^{+0.62}$ & derived \\ 
+Impact parameter b; $b_\mathrm{tra;b}$ & $0.41_{-0.20}^{+0.14}$ & derived \\ 
+Total transit duration b; $T_\mathrm{tot;b}$ (h) & $1.056_{-0.069}^{+0.058}$ & derived \\ 
+Full-transit duration b; $T_\mathrm{full;b}$ (h) & $0.829_{-0.10}^{+0.081}$ & derived \\ 
+Host density from orbit b; $\rho_\mathrm{\star;b}$ (cgs) & $19.13_{-0.92}^{+0.99}$ & derived \\ 
+Transit depth (undil.) b; $\delta_\mathrm{tr; undil; b; tess}$ (ppt) & $0.0120_{-0.0015}^{+0.0016}$ & derived \\ 
+Transit depth (dil.) b; $\delta_\mathrm{tr; dil; b; tess}$ (ppt) & $0.0120_{-0.0015}^{+0.0016}$ & derived \\ 
+Limb darkening; $u_\mathrm{1; tess}$ & $0.50_{-0.32}^{+0.46}$ & derived \\ 
+Limb darkening; $u_\mathrm{2; tess}$ & $0.09_{-0.35}^{+0.37}$ & derived \\ 
+Combined host density from all orbits; $rho_\mathrm{\star; combined}$ (cgs) & $19.13_{-0.92}^{+0.99}$ & derived \\ 

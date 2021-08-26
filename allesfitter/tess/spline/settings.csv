@@ -10,9 +10,9 @@ inst_rv,
 # Fit performance settings,
 ###############################################################################,
 multiprocess,True
-multiprocess_cores,20
-fast_fit,False
-#fast_fit_width,0.3333333333333333
+multiprocess_cores,30
+fast_fit,True
+fast_fit_width,0.3333333333333333
 secondary_eclipse,False
 phase_curve,False
 shift_epoch,True

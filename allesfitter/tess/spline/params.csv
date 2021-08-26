@@ -23,5 +23,3 @@ host_gdc_tess,0.0,0,trunc_normal 0 1 0.0 0.0,$Grav. dark._{b; \mathrm{tess}}$,
 #errors per instrument,
 ln_err_flux_tess,-7.0,1,uniform -15.0 0.0,$\ln{\sigma_\mathrm{tess}}$,$\ln{ \mathrm{rel. flux.} }$
 #baseline per instrument,
-baseline_gp_matern32_lnsigma_flux_tess,0.0,1,uniform -15.0 15.0,$\mathrm{gp: \ln{\sigma} (tess)}$,
-baseline_gp_matern32_lnrho_flux_tess,0.0,1,uniform -15.0 15.0,$\mathrm{gp: \ln{\rho} (tess)}$,
