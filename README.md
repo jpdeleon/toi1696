@@ -13,6 +13,7 @@ validation paper by Mori et al.
 - [ ] add text in overleaf
 
 ## DONE
+- [x] run [astroARIADNE](https://github.com/jvines/astroARIADNE)
 - [x] run [VESPA](https://github.com/timothydmorton/VESPA)
 - [x] run [timmy-lite](https://github.com/john-livingston/timmy-lite)
 - [x] run [triceratops](https://github.com/stevengiacalone/triceratops)

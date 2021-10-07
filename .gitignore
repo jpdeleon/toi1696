@@ -1,3 +1,5 @@
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 */chains
 __pycache__/
