@@ -1,0 +1,7 @@
+Parameter	Prior	Values
+dist	default
+rad	default
+Av	default
+teff	normal	3207	99
+logg	normal	0.495859	0.06267
+z	normal	0.3325	0.0883
