@@ -6,7 +6,7 @@ targname="TOI 1696"
 
 ##Alternative is to use coordinates, default is [None,None] in which case the targname is used to get coordinates
 #rd = [None,None]
-rd = ['65.28066667', '48.81983056']
+rd = ['04:21:07.36', '48:49:11.39']
 
 ##input target star radial velocity to calulate 3D space velocities
 radvel=4.0405 #±0.0759 ##km/s
