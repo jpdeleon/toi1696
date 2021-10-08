@@ -2,7 +2,7 @@ from astroARIADNE.star import Star
 from astroARIADNE.fitter import Fitter
 from astroARIADNE.plotter import *
 
-rerun_fit = False
+rerun_fit = True
 
 ra = 65.280648
 dec = 48.819831
@@ -18,7 +18,7 @@ nlive = 500
 dlogz = 0.1
 bound = 'multi'
 sample = 'rwalk'
-threads = 6
+threads = 24
 dynamic = False
 
 setup = [engine, nlive, dlogz, bound, sample, threads, dynamic]
@@ -44,12 +44,11 @@ f.n_samples = 10000
 
 f.prior_setup = {
     'teff': ('default'), # RAVE
-	'logg': ('default'), # default is RAVE
+    'logg': ('default'), # RAVE
     'z': ('default'),    # RAVE
-	'dist': ('default'), #from Gaia DR2
-	'rad': ('default'),
-	#'Av': ('fixed', 0)
-	'Av': ('default') #is a flat prior that ranges from 0 to the maximum of line-of-sight as per the SFD map
+    'dist': ('default'), #from Gaia DR2
+    'rad': ('default'),
+    'Av': ('default') #is a flat prior that ranges from 0 to the maximum of line-of-sight as per the SFD map
 }
 
 if rerun_fit:
