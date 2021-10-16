@@ -53,13 +53,13 @@ f.prior_setup = {
 if use_IRD_priors:
     out_folder = 'with_IRD_priors'
     f.prior_setup['teff'] = ('normal', 3116, 114)
-    f.prior_setup['logg'] = ('normal', 0.2, 0.2)
+    f.prior_setup['logg'] = ('normal', 4.95, 0.01)
     f.prior_setup['z'] = ('normal', -0.02, 0.35)
 elif use_IRTF_priors:
     # from Giacalone
     out_folder = 'with_IRTF_priors'
     f.prior_setup['teff'] = ('normal', 3207, 99)
-    f.prior_setup['logg'] = ('normal', 0.495859, 0.06267)
+    f.prior_setup['logg'] = ('normal', 4.95859, 0.06267)
     f.prior_setup['z'] = ('normal', 0.3325, 0.0883)
 elif use_default_priors:
     # default is RAVE

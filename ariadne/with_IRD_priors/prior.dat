@@ -3,5 +3,5 @@ dist	default
 rad	default
 Av	default
 teff	normal	3116	114
-logg	normal	0.2	0.2
+logg	normal	4.95	0.01
 z	normal	-0.02	0.35
