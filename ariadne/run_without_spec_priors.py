@@ -2,7 +2,7 @@ from astroARIADNE.star import Star
 from astroARIADNE.fitter import Fitter
 from astroARIADNE.plotter import *
 
-rerun_fit = True
+rerun_fit = False
 
 ra = 65.280648
 dec = 48.819831

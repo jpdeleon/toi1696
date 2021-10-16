@@ -11,6 +11,7 @@ gaia_id = 270260649602149760
 
 s = Star(starname, ra, dec, g_id=gaia_id)
 
+use_weighted_priors = False
 use_IRD_priors = False
 use_IRTF_priors = True
 use_default_priors = False
@@ -61,6 +62,12 @@ elif use_IRTF_priors:
     f.prior_setup['teff'] = ('normal', 3207, 99)
     f.prior_setup['logg'] = ('normal', 4.95859, 0.06267)
     f.prior_setup['z'] = ('normal', 0.3325, 0.0883)
+elif use_weighted_priors:
+    # default is RAVE
+    out_folder = 'with_spec_priors'
+    f.prior_setup['teff'] = ('normal', 3161, 75)
+    f.prior_setup['logg'] = ('normal', 4.954, 0.0099)
+    f.prior_setup['z'] = ('normal', 0.1563, 0.0856)
 elif use_default_priors:
     # default is RAVE
     out_folder = 'without_spec_priors'
