@@ -1,7 +1,7 @@
 import numpy as np
 from mk_mass import posterior
 
-k,ek  = 11.331,0.023
+k,ek  = 11.331,0.1 #0.023
 dist  = 64.9172
 edist = 0.3525
 #feh,efeh=-0.02,0.035 #IRD

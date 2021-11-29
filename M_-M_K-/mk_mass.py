@@ -119,10 +119,11 @@ def posterior(K,dist,ek=0.0,edist=0.0,feh=None,efeh=None,oned=False,silent=False
 
     outside = (np.where(mk > 11))[0]
     inside = (np.where(mk < 4.0))[0]
+    #import pdb; pdb.set_trace() 
     if len(outside) > 1 or len(inside) > 1:
         frac = 100*(1.0*len(outside)+1.0*len(inside))/(1.0*len(mk))
         print('{0:.2f}% of posterior is outside suggested range for the relation'.format(frac))
-        
+
     if oned == True: m = [np.mean(m),np.std(m)]
 
     if np.isnan(m).any() == True: print ('Warning, some outputs are NaNs!!?!!')
