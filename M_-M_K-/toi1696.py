@@ -6,9 +6,10 @@ from mk_mass import posterior
 
 k,ek  = 11.331,0.023
 dist, edits  = 64.9172, 0.3525 #pc
-#feh,efeh=-0.02,0.035 #IRD
+feh,efeh = 0.3382, 0.0829 #wmean
+#feh,efeh=0.38,0.24 #IRD
+#feh,efeh=0.3325,0.0883 #SpeX
 #feh,efeh=0.0,0.5 #SED
-feh,efeh=0.3325,0.0883 #SpeX
 mass      = posterior(k,dist,ek,edist)
 mass_feh  = posterior(k,dist,ek,edist,feh,efeh)
 print("Mass=%6.4f+/-%6.4f" % (np.median(mass),np.std(mass)))
