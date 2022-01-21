@@ -5,7 +5,7 @@ import numpy as np
 from mk_mass import posterior
 
 k,ek  = 11.331,0.023
-dist, edits  = 64.9172, 0.3525 #pc
+dist,edist  = 64.9172, 0.3525 #pc
 feh,efeh = 0.3382, 0.0829 #wmean
 #feh,efeh=0.38,0.24 #IRD
 #feh,efeh=0.3325,0.0883 #SpeX
