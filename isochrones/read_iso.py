@@ -3,7 +3,10 @@ from pathlib import Path
 from glob import glob
 import numpy as np
 
-outdir = './with_spec/NIR_optical'
+#outdir = './with_spec/NIR_optical'
+#outdir = './with_spec/NIR'
+#outdir = './without_spec/NIR_optical'
+outdir = './without_spec/NIR'
 cols = "radius mass Teff logg feh".split()
 fp = Path(outdir, "mist_starmodel_single.h5")
 df = pd.read_hdf(fp, key='derived_samples').dropna()
