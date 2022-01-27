@@ -10,8 +10,8 @@ feh,efeh = 0.3382, 0.0829 #wmean
 #feh,efeh=0.38,0.24 #IRD
 #feh,efeh=0.3325,0.0883 #SpeX
 #feh,efeh=0.0,0.5 #SED
-mass  = posterior(k,dist,ek,edist)
-#mass  = posterior(k,dist,ek,edist,feh,efeh)
+#mass  = posterior(k,dist,ek,edist)
+mass  = posterior(k,dist,ek,edist,feh,efeh)
 m=np.median(mass)
 em=np.std(mass)
 text=f"Mass={m:.4f}+/-{em:.4f}"
