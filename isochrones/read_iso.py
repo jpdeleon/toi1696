@@ -7,15 +7,16 @@ import numpy as np
 outdir = './with_spec/NIR'
 #outdir = './without_spec/NIR_optical'
 #outdir = './without_spec/NIR'
-cols = "radius mass Teff logg feh".split()
+cols = "radius mass Teff logg feh density distance logL AV".split()
 fp = Path(outdir, "mist_starmodel_single.h5")
 df = pd.read_hdf(fp, key='derived_samples').dropna()
 
 d = {}
 texts = []
+print(df.columns)
 for col in cols:
     v, vlo, vhi = np.percentile(df[col], q=[50, 16, 84])    
-    msg = f"{col}: {v:.2f}-{v-vlo:.2f}+{vhi-v:.2f}"
+    msg = f"{col}: {v:.3f}-{v-vlo:.3f}+{vhi-v:.3f}"
     texts.append(msg)           
     print(msg)
     if col == "Teff":
